@@ -31,6 +31,7 @@
     "ts-helpers": "^1.1.2",
     "tslint": "^3.15.1",
     "tslint-loader": "^2.1.5",
+    "tslint-react": "^1.1.0",
     "typescript": "^2.0.9",
     "webpack": "beta",
     "webpack-config-utils": "^2.1.0",

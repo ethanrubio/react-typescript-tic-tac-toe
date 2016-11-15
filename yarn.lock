@@ -3639,6 +3639,10 @@ tslint-loader@^2.1.5:
     rimraf "^2.4.4"
     strip-json-comments "^1.0.2"
 
+tslint-react:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/tslint-react/-/tslint-react-1.1.0.tgz#a068d0624a99829098059f76c19d62babb82da5a"
+
 tslint@^3.15.1:
   version "3.15.1"
   resolved "https://registry.yarnpkg.com/tslint/-/tslint-3.15.1.tgz#da165ca93d8fdc2c086b51165ee1bacb48c98ea5"
