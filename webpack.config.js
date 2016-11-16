@@ -29,7 +29,7 @@ module.exports = env => {
         module: {
             rules: [
                 {
-                    test: /\.tsx$/,
+                    test: /\.(ts|tsx)$/,
                     loaders: [
                         'awesome-typescript-loader'
                     ],

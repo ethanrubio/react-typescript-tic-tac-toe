@@ -69,7 +69,7 @@ module.exports = options => {
          */
         {
           enforce: 'pre',
-          test: /\.tsx$/,
+          test: /\.(ts|tsx)$/,
           loader: 'tslint-loader',
           exclude: [helpers.root('node_modules')]
         },
@@ -82,7 +82,7 @@ module.exports = options => {
          */
         {
           enforce: 'pre',
-          test: /\.tsx$/,
+          test: /\.(ts|tsx)$/,
           loader: 'source-map-loader',
           exclude: [
             // these packages have problems with their sourcemaps
@@ -96,7 +96,7 @@ module.exports = options => {
          * See: https://github.com/s-panferov/awesome-typescript-loader
          */
         {
-          test: /\.tsx$/,
+          test: /\.(ts|tsx)$/,
           loader: 'awesome-typescript-loader',
           query: {
             // use inline sourcemaps for "karma-remap-coverage" reporter
@@ -156,7 +156,7 @@ module.exports = options => {
          */
         {
           enforce: 'post',
-          test: /\.(js|tsx)$/,
+          test: /\.(js|ts|tsx)$/,
           loader: 'istanbul-instrumenter-loader',
           include: helpers.root('src'),
           exclude: [
