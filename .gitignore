@@ -53,7 +53,6 @@ coverage
 # test output
 junitresults.xml
 
-
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
@@ -67,6 +66,7 @@ build/Release
 # https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
 node_modules
 
+# Build folder
 dist/
 
 # Hidden secrets
